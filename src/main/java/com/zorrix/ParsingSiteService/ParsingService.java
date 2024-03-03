@@ -15,6 +15,7 @@ import java.util.Set;
 
 import static com.zorrix.Constants.EMPTY_ARTICLE;
 
+//this class would parse all data program needs from the site
 public class ParsingService {
     String url;
     public ParsingService(String url){

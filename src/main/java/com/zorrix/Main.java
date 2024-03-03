@@ -2,14 +2,14 @@ package com.zorrix;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.sql.SQLException;
 
 import static com.zorrix.Constants.URLS;
 
 public class Main {
-    public static void main(String[] args) throws IOException, URISyntaxException, InterruptedException {
+    public static void main(String[] args) throws IOException, URISyntaxException, InterruptedException, ClassNotFoundException, SQLException {
 
+        //starting crawler
         for(String e : URLS){
             new Thread(() -> {
                 try {
@@ -22,7 +22,7 @@ public class Main {
         }
 
         System.out.println("Threads are working!");
-        
+
     }
 
 }

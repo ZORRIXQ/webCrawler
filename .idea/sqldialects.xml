@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/85e46dc3-80d9-4b64-8bd3-77525fab049e/console_1.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zorrix/database/SQLRequestManager.java" dialect="GenericSQL" />
+  </component>
+</project>

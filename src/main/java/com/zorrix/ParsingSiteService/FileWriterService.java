@@ -4,6 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Set;
 
+//class that writes data to the files
 public class FileWriterService {
     public void writeToFile(Set<String> urls){
         try (FileWriter writer = new FileWriter("Urls.txt", true)) {
